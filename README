@@ -1,0 +1,28 @@
+userapt
+a simple bash script that installs .deb packages as a local user, no root required (debian, ubuntu and like clones)   
+
+ala:
+ $ userapt-get install rtorrent
+
+Motivation: I work on a lot of boxes with uncooperative admins, not always
+for sound reasons. 
+
+
+extremely basic at this point; thinks to work out first:
+ 1) instead of leaching packages.ubuntu.com for intrepid, use the underlying
+apt-get to get package names, dependencies and download urls
+
+ 2) dependencies
+ 
+ 3) don't double install stuff that's already present system-wide, unless 
+forced
+ 
+ 4) remove
+
+ 5) automatically setting LD_LIBRARY_PATH, CLASSPATH and the like
+
+ 6) some basic support for configuration files, please
+
+ 7) ...
+
+
